@@ -27,6 +27,6 @@ def update_graph(col_chosen):
     fig = px.histogram(df, x='continent', y=col_chosen, histfunc='avg')
     return fig
 
-# Run the app
+# Run the app c'mon
 if __name__ == '__main__':
     app.run(debug=True)
